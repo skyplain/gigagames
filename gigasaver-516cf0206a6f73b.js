@@ -676,10 +676,6 @@ function __wbg_get_imports() {
             const ret = arg0.style;
             return ret;
         },
-        __wbg_suspend_1bd05c6766e4937b: function() { return handleError(function (arg0) {
-            const ret = arg0.suspend();
-            return ret;
-        }, arguments); },
         __wbg_then_e3f7f2d365708be8: function(arg0, arg1) {
             const ret = arg0.then(arg1);
             return ret;
