@@ -13,8 +13,8 @@
   <title>GigaGames</title>
   
 <script type="module">
-import init, * as bindings from './gigasaver-6f1f126b7ff07fdb.js';
-const wasm = await init({ module_or_path: './gigasaver-658ad6d529db426e_bg.wasm' });
+import init, * as bindings from './gigasaver-7fc6bdde7794ac8e.js';
+const wasm = await init({ module_or_path: './gigasaver-40f0b101d1e37748_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -39,7 +39,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
       color: #aab0c4; font: 20px system-ui, sans-serif; pointer-events: none; }
     body:has(canvas) #ucitavanje { display: none; }
   </style>
-<link rel="modulepreload" href="./gigasaver-6f1f126b7ff07fdb.js" crossorigin="anonymous" integrity="sha384-nqSUe+UH9wI6gB3xsWl3T2vCJck81awVtrM/XnWBke6axSlWwWBqs2IGCAKgmry9"><link rel="preload" href="./gigasaver-658ad6d529db426e_bg.wasm" crossorigin="anonymous" integrity="sha384-0aP9stREe8ueWmJ/ny3C6dY8u8WIAqxCmXfotZQmMA48v1cImX0QTx7FH6SlA49t" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="./gigasaver-7fc6bdde7794ac8e.js" crossorigin="anonymous" integrity="sha384-nrGDBAiT2i1xh+B9X//ETc41u6x6gGsovt2knR2rIJ6fUr1S6BEd+dUYIu4Zth4k"><link rel="preload" href="./gigasaver-40f0b101d1e37748_bg.wasm" crossorigin="anonymous" integrity="sha384-AjZmS9yQrgq5TbobDn0ZqQkYKoufxl35+Up4KC8uwSg8bygTxFyKBb98DDG6xZVQ" as="fetch" type="application/wasm"></head>
 <body>
   <div id="ucitavanje">GigaGames se učitava…</div>
 </body>
